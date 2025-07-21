@@ -1,0 +1,29 @@
+.city_card_text {
+  margin-top: 15px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.city_img {
+  height: 400px;
+  width: 400px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.city_card_desc {
+  margin-bottom: 20px;
+  max-width: 810px;
+}
+
+.city_card_facts {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

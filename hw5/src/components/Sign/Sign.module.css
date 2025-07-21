@@ -1,0 +1,60 @@
+.sign_text {
+  font-size: 32px;
+  color: #1ed760;
+  text-align: center;
+  margin-top: 32px;
+}
+
+.sign_container {
+  display: flex;
+  justify-content: center;
+}
+
+.sign_block {
+  border: 3px solid #1ed760;
+  border-radius: 65px;
+  height: 175px;
+  width: 446px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-top: 31px;
+}
+
+.sign_block div {
+  transition: 0.3s ease-in-out;
+}
+
+.sign_block div:hover {
+  margin-bottom: 10px;
+}
+
+.sign_btn {
+  color: #1ed760;
+  transition: 0.3s ease-in-out;
+}
+
+.sign_btn:hover {
+  color: #1181f1;
+}
+
+@media (max-width: 520px) {
+  .sign_text {
+    font-size: 22px;
+  }
+
+  .sign_block {
+    border: 3px solid #1ed760;
+    border-radius: 65px;
+    height: 175px;
+    width: 360px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 31px;
+  }
+}

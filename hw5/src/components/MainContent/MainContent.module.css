@@ -1,0 +1,13 @@
+.main_text {
+  font-size: 64px;
+  color: #1ed760;
+  text-align: center;
+  margin-top: 112px;
+}
+
+@media (max-width: 520px) {
+  .main_text {
+    font-size: 29px;
+    margin-top: 80px;
+  }
+}

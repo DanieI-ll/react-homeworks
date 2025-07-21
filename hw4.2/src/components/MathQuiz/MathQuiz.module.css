@@ -1,0 +1,13 @@
+.math_block {
+  background-color: #ACD8E6;
+  border: 2px #8B369A solid;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.math_numbers {
+  font-size: 28px;
+  font-weight: bold;
+}
